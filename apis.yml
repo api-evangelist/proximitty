@@ -1,7 +1,16 @@
 aid: proximitty
 name: Proximitty
-description: Proximitty is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Proximitty is a Y Combinator-backed company building an AI operating
+  system for commercial lending. Its platform deploys regulator-grade AI agents that
+  ingest and parse borrower documents, spread financials, generate credit memos, automate
+  loan operations, and continuously track covenants and closing obligations for FDIC-insured
+  banks, credit unions, and non-bank lenders originating C&I, CRE, and SBA loans. The
+  system is designed to align with SR 11-7 and OCC guidance on AI governance and third-party
+  risk, and claims to compress underwriting from weeks to minutes while enabling loan
+  closures in under ten days. Proximitty publishes no public developer API, OpenAPI
+  specification, SDK, or developer portal; it is delivered as a hosted SaaS product,
+  and its public surface is limited to a marketing site, blog, security/compliance
+  page, and a hosted Trust Center.'
 url: https://raw.githubusercontent.com/api-evangelist/proximitty/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +18,52 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://proximitty.ai/images/og-image.png
 tags:
 - Company
+- Artificial Intelligence
+- AI Agents
+- Financial Services
+- Commercial Lending
+- Banking
+- Fintech
+- Underwriting
+- Regulatory Compliance
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Website
+  url: https://www.proximitty.ai
+- type: Blog
+  url: https://www.proximitty.ai/blog
+- type: PrivacyPolicy
+  url: https://www.proximitty.ai/privacy-policy
+- type: Support
+  url: mailto:founders@proximitty.ai
+- type: TrustCenter
+  url: https://trust.proximitty.ai/
+- type: DomainSecurity
+  url: security/proximitty-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
