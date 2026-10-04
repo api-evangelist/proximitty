@@ -48,7 +48,7 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Financial-Services
+- Financial Services
 - Commercial Lending
 - Banking
 - Fintech
@@ -64,6 +64,7 @@ tags_raw:
 - Fintech
 - Underwriting
 - Regulatory Compliance
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
